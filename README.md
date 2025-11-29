@@ -39,3 +39,22 @@ def calcular_bonus_fidelidade(salario: float, anos_casa: int) -> float:
         fator = 0.05
     
     return round(salario * fator, 2)
+
+# 🛡️ Agente: Quality Guardian
+
+Este agente atua como um Engenheiro de Qualidade de Software (QA), gerando testes unitários automáticos para blindar o código modernizado.
+
+**Stack:** Python + Unittest
+
+## Fluxo de Trabalho
+1.  **Entrada:** Código Python (gerado pelo Agente Modernizer).
+2.  **Processamento:** O Quality Guardian analisa "Caminhos Felizes" e "Casos de Borda" (Edge Cases).
+3.  **Saída:** Script de teste completo pronto para rodar na pipeline.
+
+## Exemplo de Saída (Análise)
+> **Casos de Borda Identificados:**
+> - Salário negativo ou zero.
+> - Anos de casa negativo.
+> - Tipos de dados inválidos (string em vez de int).
+
+---
