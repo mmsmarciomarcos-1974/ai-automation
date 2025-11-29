@@ -57,4 +57,19 @@ Este agente atua como um Engenheiro de Qualidade de Software (QA), gerando teste
 > - Anos de casa negativo.
 > - Tipos de dados inválidos (string em vez de int).
 
----
+# ☁️ Agente: Cloud Architect
+
+Este agente automatiza a criação de infraestrutura (IaC), permitindo que desenvolvedores foquem no código e não na configuração de servidores.
+
+**Stack:** AWS + Terraform
+
+## Fluxo de Trabalho
+1.  **Entrada:** Código Python (Função/Script).
+2.  **Análise:** O agente detecta necessidades (ex: precisa de banco de dados? precisa de S3?).
+3.  **Saída:** Arquivo `main.tf` pronto para o comando `terraform apply`.
+
+## Exemplo de Aplicação
+Para a função de "Cálculo de Bônus", o agente gera:
+- **AWS Lambda:** Para executar o cálculo sob demanda.
+- **IAM Role:** Permissões básicas de execução.
+- **CloudWatch Log Group:** Para monitorar a execução (logs).
