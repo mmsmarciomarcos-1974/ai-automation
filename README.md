@@ -73,3 +73,15 @@ Para a função de "Cálculo de Bônus", o agente gera:
 - **AWS Lambda:** Para executar o cálculo sob demanda.
 - **IAM Role:** Permissões básicas de execução.
 - **CloudWatch Log Group:** Para monitorar a execução (logs).
+
+# 👮‍♂️ Agente: Migration Squad Leader
+
+Este é um **Agente Orquestrador** (Manager) que coordena outros agentes especializados para realizar uma modernização ponta-a-ponta.
+
+## O Squad
+1.  **Dev:** `Mainframe Modernizer` (COBOL > Python)
+2.  **QA:** `Quality Guardian` (Gera Testes)
+3.  **Ops:** `Cloud Architect` (Gera Terraform)
+
+## Como Usar
+Basta enviar um trecho de código COBOL. O Líder acionará os agentes na ordem correta e entregará o pacote completo (Código + Teste + Infra).
